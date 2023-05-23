@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav a {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2D2727;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+ul .korzina {
+    width: 145px;
+    height: 92px;
+}
+
+ul .heart {
+    width: 92px;
+    height: 81px;
+}
+
+ul .join {
+    width: 113px;
+    height: 87px;
+}
+
+button {
+    border: none;
+    background: #3A3044;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+    padding: 25px 55px;
+
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Port Lligat Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    letter-spacing: 0.1em;
+    color: #BBBECE;
+}
+
+h2 {
+    margin: 50px 0;
+}
+
+.sell {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.background-img img {
+    width: 100%;
+}
+
+.card-description {
+    color: #1E1E1E;
+    margin: 50px 0 35px 0;
+}
+
+.card {
+    width: 500px;
+}
+
+.card img {
+    width: 100%;
+    transition: 1s;
+}
+
+.card:hover img{
+    transform: rotateY(180deg);
+
+}
+
+
+.prise {
+    font-weight: 400;
+    font-size: 34px;
+    color: #000000;
+    margin-bottom: 40px;
+
+}
+
+
+.white {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #B5B5B5;
+    margin-bottom: 14px;
+}
+
+.black {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #212121;
+    margin-bottom: 30px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background: #51485A;
+    padding: 100px 0 30px 0;
+    margin-top: 150px;
+}
+
+#Gold {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    background: #51485A;
+    border: 1px solid black;
+    text-align: center;
+    left: 0px;
+    color: white;
+    bottom: -1193px;
+    transform: translateX(-100%);
+    transition: all 0.7s ease;
+}
+
+#Gold:hover {
+    transform: translateX(0);
+}
+
+#Gold p {
+    padding: 20px;
+    text-align: center;
+}
+#Gold::after {
+    position: absolute;
+    content: "Наведи";
+    width: 80px;
+    background: rgb(128, 54, 212);
+    border: 1px solid black;
+    color: #000;
+    border-radius: 0 0 8px 8px;
+    left: 300px;
+    padding: 6px 0;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    bottom: -36px;
+    cursor: pointer;
+} 
+.sale{
+    width: 120px;
+    height: 40px;
+    background: blueviolet;
+    animation: salee 5s linear alternate infinite;
+    text-align: center;
+}
+@keyframes salee{
+    0%{
+        margin-left: 0px;
+        background: #51485A;
+    }
+    100%{
+        margin-left: 95%;
+        background: rgb(128, 54, 212);
+    }
+}
