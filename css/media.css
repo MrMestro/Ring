@@ -1,0 +1,43 @@
+@media(max-width:1060px){
+    .sell{
+        justify-content: center;
+    }
+    .card{
+        width: 550px;
+        margin-bottom: 90px;
+    }
+
+}
+@media(max-width:768px){
+  
+    .footer-info{
+        flex-direction: column;
+    }
+    .footer-info section{
+        margin-bottom: 60px;
+    }
+    .imgBox{
+        animation: none;
+    }
+    nav{
+        display: none;
+    }
+    .burger-menu{
+        display: flex;
+        position: fixed;
+        right: 40px;
+        top: 55px;
+    }
+    h1{
+        position: fixed;
+        left: 40px;
+        top: 40px;
+        z-index: 999;
+        margin: 0;
+    }
+
+    .imgBox{
+        margin-top: 250px;
+    }
+  
+}
